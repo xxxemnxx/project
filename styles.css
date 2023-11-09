@@ -1,0 +1,36 @@
+.menu-container {
+    position: relative;
+    display: inline-block;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+.menu-list li {
+    padding: 8px;
+    text-align: center;
+}
+.menu-list li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+}
+
+.menu-list li a:hover {
+    background-color: #ddd;
+}
+
+#menu-btn {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
